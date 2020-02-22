@@ -33,7 +33,7 @@ def heliographic_test_map():
 
 @pytest.fixture
 def composite_test_map():
-    return sunpy.map.Map(aia171_test_map, heliographic_test_map, composite = True)
+    return sunpy.map.Map(aia171_test_map, heliographic_test_map, composite=True)
 
 
 @figure_test
@@ -43,4 +43,4 @@ def test_plot_composite_map(composite_test_map):
 
 @figure_test
 def test_plot_composite_map_linewidths(composite_test_map):
-    composite_test_map.plot(linewidths=4)    
+    composite_test_map.plot(linewidths=4)
