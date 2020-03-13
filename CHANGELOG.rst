@@ -178,7 +178,6 @@ Bug Fixes
 - Add support for rotation parameters to `sunpy.map.make_fitswcs_header`. (`#3139 <https://github.com/sunpy/sunpy/pull/3139>`__)
 - Improve the implementation of `~sunpy.physics.differential_rotation.differential_rotate` the image warping when transforming Maps for differential rotation and change in observer position. (`#3149 <https://github.com/sunpy/sunpy/pull/3149>`__)
 - Fix a bug where new helioviewer sources potentially cause `~sunpy.net.helioviewer.HelioviewerClient.data_sources` to error. (`#3162 <https://github.com/sunpy/sunpy/pull/3162>`__)
-- Updated the `sunpy.map.compositemap` to support linewidths argument. (`#3792 <https://github.com/sunpy/sunpy/pull/3792>`__)
 
 
 Improved Documentation
