@@ -436,7 +436,7 @@ class CompositeMap:
                 # Check for the presence of masked map data
 
                 # Check if the linewidths argument is provided, if so, then delete it from params.
-                if matplot_args.get('linewidths', -1) != -1:
+                if matplot_args.get('linewidths'):
                     del params['linewidths']
 
                 if m.mask is None:
